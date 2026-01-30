@@ -1,6 +1,6 @@
 {
   "name": "fsnext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comprehensive Next.js full-stack development toolkit with TDD, E2E testing, and MUI patterns",
   "author": {
     "name": "Dominic O'Toole",
