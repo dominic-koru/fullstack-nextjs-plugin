@@ -1,0 +1,12 @@
+  {
+    "name": "dominic-koru",
+    "version": "1.0.0",
+    "description": "Dominic's Claude Code plugins for full-stack development",
+    "plugins": [
+      {
+        "name": "fsnext",
+        "path": ".",
+        "description": "Comprehensive Next.js full-stack development toolkit with TDD, E2E testing, and MUI patterns"
+      }
+    ]
+  }
