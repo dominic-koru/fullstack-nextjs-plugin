@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-nextjs-plugin",
+  "version": "1.0.0",
+  "description": "Comprehensive Next.js full-stack development toolkit with TDD, E2E testing, and MUI patterns",
+  "author": {
+    "name": "Dominic O'Toole",
+    "email": "dominicotoole@example.com"
+  },
+  "keywords": ["nextjs", "nextjs-16", "playwright", "mui", "tdd", "e2e", "typescript", "fullstack"],
+  "license": "MIT"
+}
