@@ -1,12 +1,24 @@
   {
+    "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@latest/marketplace.schema.json",
     "name": "dominic-koru",
-    "version": "1.0.0",
     "description": "Dominic's Claude Code plugins for full-stack development",
+    "owner": {
+      "name": "Dominic O'Toole",
+      "email": "dominicotoole@example.com"
+    },
     "plugins": [
       {
         "name": "fsnext",
-        "path": ".",
-        "description": "Comprehensive Next.js full-stack development toolkit with TDD, E2E testing, and MUI patterns"
+        "description": "Next.js full-stack toolkit with TDD, E2E testing, and MUI patterns",
+        "category": "development",
+        "author": {
+          "name": "Dominic O'Toole"
+        },
+        "source": {
+          "type": "local",
+          "path": "."
+        },
+        "homepage": "https://github.com/dominic-koru/fullstack-nextjs-plugin"
       }
     ]
   }
