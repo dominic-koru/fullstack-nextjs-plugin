@@ -1,4 +1,4 @@
-  {
+{
     "name": "dominic-koru",
     "description": "Dominic's Claude Code plugins for full-stack development",
     "owner": {
@@ -13,7 +13,7 @@
         "author": {
           "name": "Dominic O'Toole"
         },
-        "source": ".",
+        "source": "./",
         "homepage": "https://github.com/dominic-koru/fullstack-nextjs-plugin"
       }
     ]
