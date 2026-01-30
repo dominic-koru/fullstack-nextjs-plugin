@@ -14,7 +14,7 @@ Custom slash commands for streamlined development workflows:
 - `/fullstack-nextjs-plugin:commit` - Create conventional commits
 - `/fullstack-nextjs-plugin:pr` - Create pull requests with comprehensive descriptions
 
-### Skills (3)
+### Skills (4)
 
 Advanced skills with comprehensive reference documentation:
 
@@ -57,6 +57,17 @@ Advanced skills with comprehensive reference documentation:
 - `form-patterns.md` - Form component patterns
 - `table-patterns.md` - Table and data grid patterns
 - `theme-patterns.md` - Theme customization
+
+#### 4. **React i18n** (`react-i18n`)
+
+- Internationalization with react-i18next
+- Translation key patterns and naming conventions
+- Namespace organization (common, feature-specific)
+- E2E testing with translations
+
+**References:**
+
+- `patterns.md` - Comprehensive component and translation patterns
 
 ### Hooks (5)
 
@@ -135,6 +146,7 @@ Skills are invoked automatically by Claude when relevant, or you can reference t
 # - Writing Next.js API routes (nextjs-api skill)
 # - Creating Playwright tests (playwright-e2e skill)
 # - Building MUI components (mui-components skill)
+# - Working with translations (react-i18n skill)
 ```
 
 ### Hooks Behavior
@@ -156,6 +168,7 @@ This plugin is optimized for projects using:
 - **Material-UI v6** (with CSS variables)
 - **Redux Toolkit** (state management)
 - **Zod** (validation)
+- **react-i18next** (internationalization)
 - **Vitest** (unit tests)
 - **Playwright** (E2E tests)
 
@@ -178,7 +191,10 @@ fullstack-nextjs-plugin/
 │   ├── nextjs-api/
 │   │   ├── SKILL.md
 │   │   └── references/
-│   └── playwright-e2e/
+│   ├── playwright-e2e/
+│   │   ├── SKILL.md
+│   │   └── references/
+│   └── react-i18n/
 │       ├── SKILL.md
 │       └── references/
 ├── hooks/
