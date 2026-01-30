@@ -90,14 +90,17 @@ claude --plugin-dir /path/to/fullstack-nextjs-plugin
 /plugin install fullstack-nextjs-plugin --scope project
 ```
 
-### Option 3: From GitHub (After Publishing)
+### Option 3: From GitHub (Recommended)
 
 ```bash
-# Add your GitHub repository as a marketplace
-/plugin marketplace add your-username/fullstack-nextjs-plugin
+# Add the GitHub repository as a marketplace
+/plugin marketplace add dominic-koru/fullstack-nextjs-plugin
 
-# Install the plugin
-/plugin install fullstack-nextjs-plugin@your-username
+# Install the plugin (user scope - available in all projects)
+/plugin install fullstack-nextjs-plugin@dominic-koru --scope user
+
+# Or install for just this project
+/plugin install fullstack-nextjs-plugin@dominic-koru --scope project
 ```
 
 ## 🚀 Usage
